@@ -1,0 +1,138 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b12">
+  <meta name="description" content="GG MODS - Gaming Community">
+  <title>GG MODS | Gaming Community</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="GG MODS home">
+      <span class="brand-icon">GG</span>
+      <span>GG <strong>MODS</strong></span>
+    </a>
+    <button id="menuButton" class="menu-button" aria-label="Open menu">☰</button>
+  </header>
+
+  <aside id="sidebar" class="sidebar">
+    <p class="nav-heading">MAIN MENU</p>
+    <a class="nav-link active" href="#home">⌂ <span>Home</span></a>
+    <a class="nav-link" href="#games">🎮 <span>Games</span></a>
+    <a class="nav-link" href="#movies">🎬 <span>Movies</span></a>
+    <a class="nav-link" href="#community">👥 <span>Community</span></a>
+    <a class="nav-link" href="#chat">💬 <span>Chat</span></a>
+    <a class="nav-link" href="#settings">⚙️ <span>Settings</span></a>
+    <div class="sidebar-note">YOUR GAMING WORLD<br><strong>PLAY • CONNECT • EXPLORE</strong></div>
+  </aside>
+
+  <main class="main-content" id="home">
+    <section class="welcome">
+      <span class="eyebrow">WELCOME TO YOUR WORLD</span>
+      <h1>LEVEL UP WITH <span>GG MODS</span></h1>
+      <p>Your gaming community starts here. Discover games, connect with players and explore what's new.</p>
+      <a class="primary-button" href="#games">EXPLORE GAMES ↗</a>
+    </section>
+
+    <section class="stats-grid" aria-label="Community overview">
+      <article class="stat-card">
+        <span class="stat-icon">👥</span>
+        <p>COMMUNITY</p>
+        <h2>GG MODS</h2>
+        <small>Built for gamers</small>
+      </article>
+      <article class="stat-card">
+        <span class="stat-icon">🎮</span>
+        <p>GAMES</p>
+        <h2>Discover</h2>
+        <small>Your next favourite</small>
+      </article>
+      <article class="stat-card">
+        <span class="stat-icon">💬</span>
+        <p>CONNECT</p>
+        <h2>Together</h2>
+        <small>Made for community</small>
+      </article>
+    </section>
+
+    <section class="content-section" id="games">
+      <div class="section-heading">
+        <div><span class="eyebrow">YOUR NEXT ADVENTURE</span><h2>Popular Games</h2></div>
+        <span class="section-tag">GAMES</span>
+      </div>
+      <div class="empty-card">
+        <div class="empty-icon">🎮</div>
+        <h3>Games are coming soon</h3>
+        <p>Our game collection will appear here when it's ready.</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="movies">
+      <div class="section-heading">
+        <div><span class="eyebrow">WATCH SOMETHING</span><h2>Movies & Live Streams</h2></div>
+        <span class="section-tag">WATCH</span>
+      </div>
+      <div class="empty-card">
+        <div class="empty-icon">🎬</div>
+        <h3>Nothing published yet</h3>
+        <p>Authorised movies and live streams will be shown here when added.</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="community">
+      <div class="section-heading">
+        <div><span class="eyebrow">MEET OTHER PLAYERS</span><h2>Community</h2></div>
+        <span class="section-tag">PLAYERS</span>
+      </div>
+      <div class="empty-card">
+        <div class="empty-icon">👥</div>
+        <h3>Your community starts here</h3>
+        <p>Member profiles and community posts will be added in a later step.</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="chat">
+      <div class="section-heading">
+        <div><span class="eyebrow">STAY CONNECTED</span><h2>GG MODS Chat</h2></div>
+        <span class="section-tag">CHAT</span>
+      </div>
+      <div class="empty-card">
+        <div class="empty-icon">💬</div>
+        <h3>Chat is being prepared</h3>
+        <p>Real member messaging will need a secure database and sign-in system.</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="settings">
+      <div class="section-heading">
+        <div><span class="eyebrow">MAKE IT YOURS</span><h2>Appearance</h2></div>
+        <span class="section-tag">SETTINGS</span>
+      </div>
+      <div class="settings-card">
+        <label for="themeSelect">Choose your theme</label>
+        <select id="themeSelect">
+          <option value="neon">Black Neon</option>
+          <option value="blue">Blue</option>
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="white">White</option>
+        </select>
+        <p>Your choice is saved on this device.</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span class="brand-icon">GG</span>
+      <p>© <span id="year"></span> GG MODS</p>
+      <small>MADE FOR THE GAMING COMMUNITY</small>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+    </html>
+    
