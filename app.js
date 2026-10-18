@@ -97,4 +97,13 @@ if (themeSelect) {
 }
 
 console.log("GG MODS website loaded successfully!");
-  
+ // GG MODS — Supabase connection
+const GG_SUPABASE_URL = "https://wqtdprjcuonlgalmlemu.supabase.co";
+const GG_SUPABASE_KEY = "sb_publishable_5VAxMFL0uuvOqkZMZ-I1Yg_YsVMAQMQ";
+
+const ggSupabase = window.supabase.createClient(
+  GG_SUPABASE_URL,
+  GG_SUPABASE_KEY
+);
+
+console.log("GG MODS database connection initialized!"); 
